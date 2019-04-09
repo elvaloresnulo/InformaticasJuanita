@@ -20,5 +20,8 @@
                 <element hint="Usuario con bastantes privilegios" inactive_on_update="false" label="Senior" value="2"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="nombre"/>
+        </index>
     </element>
 </database>
