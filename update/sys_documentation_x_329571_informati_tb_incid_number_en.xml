@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number" label="ID_INCIDENCIA" language="en" table="x_329571_informati_tb_incid">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>ID_INCIDENCIA</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <plural>ID_INCIDENCIAs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:43:19</sys_created_on>
+            <sys_id>6dd626ccdb7033002bc553184b96195c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>ID_INCIDENCIA</sys_name>
+            <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+            <sys_update_name>sys_documentation_x_329571_informati_tb_incid_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:49:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TB_EMPLES" max_length="40" name="x_329571_informati_tb_emples" type="collection">
+        <element label="Correo" max_length="40" name="correo" reference="sys_email" type="string"/>
+        <element display="true" label="DNI" max_length="9" name="dni" type="string"/>
+        <element choice="1" default="1" label="Estado" mandatory="true" max_length="40" name="estado" type="choice">
+            <choice>
+                <element hint="Empleado trabajando actualmente" inactive_on_update="false" label="Activo" value="1"/>
+                <element hint="Empleado de baja, con sueldo" inactive_on_update="false" label="Baja" value="4"/>
+                <element hint="Empleado ya despedido" inactive_on_update="false" label="Finalizado" value="5"/>
+                <element hint="Suspendido de empleo sin sueldo pero todavia contratado" inactive_on_update="false" label="Suspendido" value="2"/>
+                <element hint="Empleado de vacaciones" inactive_on_update="false" label="Vacaciones" value="3"/>
+            </choice>
+        </element>
+        <element label="Fecha de nacimiento" max_length="40" name="fecha_de_nacimiento" type="glide_date"/>
+        <element label="Nombre" mandatory="true" max_length="60" name="nombre" reference="sys_user" type="reference"/>
+        <element choice="3" default="3" label="Puesto" mandatory="true" max_length="40" name="puesto" type="choice">
+            <choice>
+                <element hint="Usuario con todos los privilegios" inactive_on_update="false" label="Director" value="1"/>
+                <element hint="Usuario con privilegios mínimos" inactive_on_update="false" label="Junior" value="3"/>
+                <element hint="Usuario con bastantes privilegios" inactive_on_update="false" label="Senior" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

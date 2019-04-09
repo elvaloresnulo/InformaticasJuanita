@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_urgencia" table="x_329571_informati_tb_incid" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_urgencia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Crítica</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e162e8cdb7033002bc553184b9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_urgencia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Urgente</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e162e8cdb7033002bc553184b9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_urgencia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Importante</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e162e8cdb7033002bc553184b9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_urgencia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Estándar</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a162e8cdb7033002bc553184b9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_urgencia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Baja</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a162e8cdb7033002bc553184b9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_urgencia</element>
+            <name>x_329571_informati_tb_incid</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 09:40:06</sys_created_on>
+            <sys_id>96162e8cdb7033002bc553184b9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_urgencia</sys_name>
+            <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+            <sys_update_name>sys_choice_x_329571_informati_tb_incid_u_urgencia</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:40:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

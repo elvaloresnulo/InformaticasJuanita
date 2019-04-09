@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_329571_informati.ObtenerEmail</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ObtenerEmail</name>
+        <script><![CDATA[var ObtenerEmail = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+ObtenerEmail.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	// Define the getEmail function.  
+	// Create a GlideRecord for the User table.
+	// Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+	// Return the email address for the requested record
+	getEmail: function() {
+		var userRecord = new GlideRecord("sys_user");
+		userRecord.get(this.getParameter('sysparm_userID'));
+		return userRecord.email + '';
+	},
+	type: 'ObtenerEmail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-09 10:25:30</sys_created_on>
+        <sys_id>635f2644dbb033002bc553184b9619cc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ObtenerEmail</sys_name>
+        <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+        <sys_update_name>sys_script_include_635f2644dbb033002bc553184b9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-09 10:56:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

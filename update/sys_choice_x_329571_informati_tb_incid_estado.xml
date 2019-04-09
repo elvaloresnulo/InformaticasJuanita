@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="estado" table="x_329571_informati_tb_incid" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicitada</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9dade44db7033002bc553184b961938</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:27:05</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En espera</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:52:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50eada44db7033002bc553184b961995</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:27:05</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolviendo</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:53:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e64b9284db7033002bc553184b9619e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:27:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completada</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:53:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>015b1284db7033002bc553184b9619a4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:27:05</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rechazada</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:53:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>875bd684db7033002bc553184b961906</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 09:27:05</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>estado</element>
+            <name>x_329571_informati_tb_incid</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-09 08:51:05</sys_created_on>
+            <sys_id>9cea1e44db7033002bc553184b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>estado</sys_name>
+            <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+            <sys_update_name>sys_choice_x_329571_informati_tb_incid_estado</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 08:51:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
