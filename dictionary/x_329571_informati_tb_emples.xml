@@ -11,6 +11,7 @@
                 <element hint="Empleado de vacaciones" inactive_on_update="false" label="Vacaciones" value="3"/>
             </choice>
         </element>
+        <element label="Fecha Despido" max_length="40" name="fecha_despido" type="glide_date"/>
         <element label="Fecha de nacimiento" max_length="40" name="fecha_de_nacimiento" type="glide_date"/>
         <element label="Nombre" mandatory="true" max_length="60" name="nombre" reference="sys_user" type="reference"/>
         <element choice="3" default="3" label="Puesto" mandatory="true" max_length="40" name="puesto" type="choice">
