@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID_INCIDENCIA" max_length="40" name="number" read_only="true" type="string"/>
-        <element display="true" label="Solicitante" mandatory="true" max_length="60" name="solicitante" reference="sys_user" type="reference"/>
+        <element display="true" label="Solicitante" max_length="60" name="solicitante" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tipo" max_length="40" name="u_tipo" type="string">
             <choice>
                 <element inactive_on_update="false" label="Puetso de Trabajo" sequence="0" value="1"/>
