@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_329571_informati.Maneger" name="x_329571_informati.Maneger">0ea86b10dbb0330065672fb7489619af</role>
+        <role display_value="x_329571_informati.Manager" name="x_329571_informati.Manager">0ea86b10dbb0330065672fb7489619af</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-10 09:09:34</sys_created_on>
