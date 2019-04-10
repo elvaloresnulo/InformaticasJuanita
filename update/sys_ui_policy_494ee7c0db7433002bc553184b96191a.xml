@@ -15,9 +15,12 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
+		g_form.hideFieldMsg('fecha_despido',true);
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
+	
+		g_form.showFieldMsg('fecha_despido','Introduzca la fecha de finalizacion de la relación laboral.','info');
 
 }]]></script_true>
         <set_values/>
@@ -28,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>494ee7c0db7433002bc553184b96191a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>mostrar campo fecha despido al seleccionar estado finalizado</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -36,7 +39,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_ui_policy_494ee7c0db7433002bc553184b96191a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-09 14:59:19</sys_updated_on>
+        <sys_updated_on>2019-04-10 06:41:57</sys_updated_on>
         <table>x_329571_informati_tb_emples</table>
         <ui_type>0</ui_type>
         <view/>
