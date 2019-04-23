@@ -40,6 +40,10 @@
 
 	gr.solicitante=current.solicitante;
 	gr.descripcion=current.descripcion;
+	
+	var hoy = GlideDateTime();
+	
+	gr.fecha_finalizada = hoy;
 
 	gr.estado='Completada';
 	var urgencia_1;
@@ -77,7 +81,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9acdba0db45330065672fb748961995</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>incidencias_completadas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -85,7 +89,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_b9acdba0db45330065672fb748961995</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-23 13:43:53</sys_updated_on>
+        <sys_updated_on>2019-04-23 14:00:03</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

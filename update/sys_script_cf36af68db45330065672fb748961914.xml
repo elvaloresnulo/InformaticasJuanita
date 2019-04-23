@@ -41,6 +41,10 @@
 
 	gr.solicitante=current.solicitante;
 	gr.descripcion=current.descripcion;
+	
+	var hoy = GlideDateTime();
+	
+	gr.fecha_finalizada = hoy;
 
 	gr.estado='Rechazada';
 	var urgencia_1;
@@ -79,7 +83,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf36af68db45330065672fb748961914</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>incidencias_rechazadas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -87,7 +91,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_cf36af68db45330065672fb748961914</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-23 13:54:51</sys_updated_on>
+        <sys_updated_on>2019-04-23 14:00:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
