@@ -28,5 +28,8 @@
                 <element inactive_on_update="false" label="5 - Baja" sequence="4" value="5"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="solicitante"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TB_EMPLES_DES" max_length="40" name="x_329571_informati_tb_emples_des" type="collection">
+        <element label="DNI" max_length="40" name="dni" type="string"/>
+        <element label="Fecha de nacimiento" max_length="40" name="fecha_de_nacimiento" type="glide_date"/>
+        <element label="Nombre" max_length="32" name="nombre" reference="sys_user" type="reference"/>
+        <element choice="1" label="Puesto" max_length="40" name="puesto" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="nombre"/>
+        </index>
+    </element>
+</database>
