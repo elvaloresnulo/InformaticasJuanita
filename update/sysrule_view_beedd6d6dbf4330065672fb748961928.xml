@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
     <sysrule_view action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <advanced>true</advanced>
         <condition/>
         <description/>
@@ -10,9 +10,9 @@
         <order>100</order>
         <overrides_user_preference>true</overrides_user_preference>
         <script><![CDATA[(function overrideView(view, is_list) {
-		answer=view;
+		answer = view;
 	if(gs.hasRole("x_329571_informati.Manager")){
-		answer ="Advanced View";
+		answer = "Advanced_View";
 	}
 
 	
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>beedd6d6dbf4330065672fb748961928</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Configurar_vistas_inci</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sysrule_view_beedd6d6dbf4330065672fb748961928</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-17 20:17:20</sys_updated_on>
+        <sys_updated_on>2019-04-23 07:01:00</sys_updated_on>
         <table>x_329571_informati_tb_incid</table>
         <view/>
     </sysrule_view>
