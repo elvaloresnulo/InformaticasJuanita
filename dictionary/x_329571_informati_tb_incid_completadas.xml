@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TB_INCID_COMPLETADAS" max_length="40" name="x_329571_informati_tb_incid_completadas" type="collection">
+        <element label="Descripción" max_length="250" name="descripcion" type="string"/>
+        <element choice="1" label="Estado" max_length="40" name="estado" type="choice">
+            <choice/>
+        </element>
+        <element label="ID_INCIDENCIA" max_length="50" name="id_incidencia" type="string"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+        <element label="Tipo" max_length="40" name="tipo" type="string"/>
+        <element label="Urgencia" max_length="40" name="urgencia" type="string"/>
+        <index name="index">
+            <element name="solicitante"/>
+        </index>
+    </element>
+</database>

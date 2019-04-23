@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="TB_INCID" max_length="40" name="x_329571_informati_tb_incid" type="collection">
         <element label="Descripción" mandatory="true" max_length="250" name="descripcion" type="string"/>
-        <element choice="3" default="1" label="Estado" max_length="40" name="estado" read_only="true" type="choice">
+        <element choice="3" default="1" label="Estado" max_length="40" name="estado" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Solicitada" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="En espera" sequence="1" value="2"/>
@@ -14,7 +14,7 @@
         <element display="true" label="Solicitante" max_length="60" name="solicitante" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tipo" max_length="40" name="u_tipo" type="string">
             <choice>
-                <element inactive_on_update="false" label="Puetso de Trabajo" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Puesto de Trabajo" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Zonas Comunes" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Permisos y Excedencias" sequence="2" value="3"/>
             </choice>
