@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>f7c4e828db3433002bc553184b961957</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>3c54e8f0db0933002bc553184b961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>b7c4e828db3433002bc553184b96197d</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>b454e8f0db0933002bc553184b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>estado</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>3bc4e828db3433002bc553184b96197d</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>3854e8f0db0933002bc553184b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_urgencia</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>bbc4e828db3433002bc553184b96197d</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>b854e8f0db0933002bc553184b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_tipo</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>3fc4e828db3433002bc553184b96197d</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>3c54e8f0db0933002bc553184b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>bfc4e828db3433002bc553184b96197d</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>bc54e8f0db0933002bc553184b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -88,27 +88,13 @@
             <element>descripcion</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-10 13:32:10</sys_created_on>
-            <sys_id>33c4e828db3433002bc553184b96197e</sys_id>
+            <sys_created_on>2019-04-23 18:24:15</sys_created_on>
+            <sys_id>3054e8f0db0933002bc553184b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-10 13:32:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fecha_registro</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-23 14:35:51</sys_created_on>
-            <sys_id>97007ba0db8533002bc553184b96190d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_329571_informati_tb_incid" sys_domain="global" view="Default view">19e1eec8db7033002bc553184b9619cd</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-23 14:35:51</sys_updated_on>
+            <sys_updated_on>2019-04-23 18:24:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
