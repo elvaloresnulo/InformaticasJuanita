@@ -31,6 +31,9 @@
 
 	var user = gs.getUserID();
 	
+	var hoy = new GlideDateTime();
+	
+	current.fecha_registro = hoy;
 	current.solicitante = user;
 	current.update();
 	
@@ -42,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a96100a0dbf033002bc553184b961900</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Rellenar solicitante en tabla</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -50,7 +53,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_a96100a0dbf033002bc553184b961900</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-10 13:41:36</sys_updated_on>
+        <sys_updated_on>2019-04-23 14:40:21</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

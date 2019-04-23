@@ -5,6 +5,7 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Fecha Finalizada" max_length="40" name="fecha_finalizada" type="glide_date"/>
+        <element label="Fecha Registro" max_length="40" name="fecha_registro" type="glide_date"/>
         <element label="ID_INCIDENCIA" max_length="50" name="id_incidencia" type="string"/>
         <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
         <element label="Tipo" max_length="40" name="tipo" type="string"/>

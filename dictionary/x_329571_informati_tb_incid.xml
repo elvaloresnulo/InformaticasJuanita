@@ -10,6 +10,7 @@
                 <element inactive_on_update="false" label="Rechazada" sequence="4" value="5"/>
             </choice>
         </element>
+        <element label="Fecha Registro" max_length="40" name="fecha_registro" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ID_INCIDENCIA" max_length="40" name="number" read_only="true" type="string"/>
         <element display="true" label="Solicitante" max_length="60" name="solicitante" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tipo" max_length="40" name="u_tipo" type="string">
