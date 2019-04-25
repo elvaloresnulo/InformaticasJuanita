@@ -3,7 +3,7 @@
         <element default="1" label="Cantidad" max_length="40" name="cantidad" type="integer"/>
         <element label="Descuento" max_length="20" name="descuento" read_only="true" type="decimal"/>
         <element label="DNI" mandatory="true" max_length="9" name="dni" type="string"/>
-        <element choice="1" label="Estado" max_length="40" name="estado" type="choice">
+        <element choice="1" default="preparando" label="Estado" max_length="40" name="estado" type="choice">
             <choice>
                 <element inactive_on_update="false" label="En preparación" language="es" value="preparacion"/>
                 <element inactive_on_update="false" label="Entregado" language="es" value="entregado"/>
