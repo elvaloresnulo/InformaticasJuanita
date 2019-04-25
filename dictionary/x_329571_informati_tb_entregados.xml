@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TB_ENTREGADOS" max_length="40" name="x_329571_informati_tb_entregados" type="collection">
+        <element label="Cantidad" max_length="40" name="cantidad" type="integer"/>
+        <element display="true" label="Fecha entregado" max_length="40" name="fecha_entregado" type="glide_date"/>
+        <element label="Fecha enviado" max_length="40" name="fecha_enviado" type="glide_date"/>
+        <element label="Fecha pedido" max_length="40" name="fecha_pedido" type="glide_date"/>
+        <element label="Gastos de envio" max_length="20" name="gastos_de_envio" type="decimal"/>
+        <element label="Localidad" max_length="40" name="localidad" type="string"/>
+        <element label="nombre" max_length="32" name="nombre" reference="sys_user" type="reference"/>
+        <element label="number" max_length="40" name="number" type="string"/>
+        <element label="precio" max_length="20" name="precio" type="decimal"/>
+        <element label="producto" max_length="40" name="producto" type="string"/>
+        <element label="Total" max_length="20" name="total" type="decimal"/>
+        <index name="index">
+            <element name="nombre"/>
+        </index>
+    </element>
+</database>

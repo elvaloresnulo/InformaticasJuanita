@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fecha_pedido" label="Fecha pedido" language="en" table="x_329571_informati_tb_entregados">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fecha_pedido</element>
+            <help/>
+            <hint/>
+            <label>Fecha pedido</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_entregados</name>
+            <plural>Fecha pedidos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 13:09:07</sys_created_on>
+            <sys_id>186fe115db4533002bc553184b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fecha pedido</sys_name>
+            <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+            <sys_update_name>sys_documentation_x_329571_informati_tb_entregados_fecha_pedido_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 13:09:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
