@@ -18,10 +18,32 @@
    var precio_final=0;
 	var gastos=0;
 	var gastos2=0;
+	var gastos3=0;
 	gastos=g_form.getValue('gastos_de_envio');
 	gastos2=g_form.getValue('precio');
+	
+// 	var ga = new GlideAjax('ObtenerFilas');
+// 	// Specify the getEmail method
+// 	ga.addParam('sysparm_name','getFilas');
+// 	// Pass the Requested for sys_id
+// 	ga.addParam('nombre', g_form.getValue('nombre'));
+// 	// Send the request to the server
+// 	ga.getXML(ponerDescuento);
+	
+// 	function ponerDescuento(response){
+// 		var filas = response.responseXML.documentElement.getAttribute("answer");
+// 		if(filas % 5 == 0 && filas != 0){
+// 			precio_final = parseInt(gastos) + parseInt(gastos2) - parseInt(g_form.getValue('descuento'));
+// 		}else{
+// 			precio_final=parseInt(gastos)+parseInt(gastos2);
+// 		}
+// 	}
 
-	precio_final=parseInt(gastos)+parseInt(gastos2);
+gastos3=g_form.getValue('descuentos');
+	
+
+
+precio_final=parseInt(gastos)+parseInt(gastos2)-parseInt(gastos3);
 	
 	g_form.setValue('precio_total',precio_final);
    
@@ -32,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5df03005db45330065672fb748961943</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>precio final uno</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -40,7 +62,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_client_5df03005db45330065672fb748961943</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-24 14:41:26</sys_updated_on>
+        <sys_updated_on>2019-04-25 08:28:01</sys_updated_on>
         <table>x_329571_informati_tb_pedidos</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
