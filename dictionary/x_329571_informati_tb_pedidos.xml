@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="TB_PEDIDOS" max_length="40" name="x_329571_informati_tb_pedidos" type="collection">
+        <element default="1" label="Cantidad" max_length="40" name="cantidad" type="integer"/>
         <element label="Descuento" max_length="20" name="descuento" read_only="true" type="decimal"/>
         <element label="DNI" mandatory="true" max_length="9" name="dni" type="string"/>
         <element label="Fecha del pedido" max_length="40" name="fecha_del_pedido" type="glide_date"/>

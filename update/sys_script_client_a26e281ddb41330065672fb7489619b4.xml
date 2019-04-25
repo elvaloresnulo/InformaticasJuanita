@@ -24,7 +24,7 @@
 	
 
 
-precio_final=parseInt(gastos)+parseInt(gastos2)-parseInt(gastos3);
+precio_final=parseInt(gastos)+(g_form.getValue('cantidad') * parseInt(gastos2))-parseInt(gastos3);
 	
 	g_form.setValue('precio_total',precio_final);
    //Type appropriate comment here, and begin script below
@@ -36,7 +36,7 @@ precio_final=parseInt(gastos)+parseInt(gastos2)-parseInt(gastos3);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a26e281ddb41330065672fb7489619b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>precio final tres</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -44,7 +44,7 @@ precio_final=parseInt(gastos)+parseInt(gastos2)-parseInt(gastos3);
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_client_a26e281ddb41330065672fb7489619b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 08:36:05</sys_updated_on>
+        <sys_updated_on>2019-04-25 08:53:31</sys_updated_on>
         <table>x_329571_informati_tb_pedidos</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
