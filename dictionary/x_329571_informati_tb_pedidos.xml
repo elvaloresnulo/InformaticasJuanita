@@ -16,7 +16,7 @@
         <element label="Nombre" mandatory="true" max_length="32" name="nombre" reference="sys_user" type="reference"/>
         <element label="Precio" max_length="15" name="precio" read_only="true" type="decimal"/>
         <element label="Precio total" max_length="20" name="precio_total" read_only="true" type="decimal"/>
-        <element choice="1" label="Producto " max_length="40" name="producto" type="choice">
+        <element choice="1" label="Producto" max_length="40" name="producto" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Torre de ordenador" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Monitor" sequence="1" value="2"/>
