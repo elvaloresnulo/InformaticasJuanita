@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="estado" table="x_329571_informati_tb_pedidos" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entregado</label>
+            <language>es</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 10:01:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b244591dbc133002bc553184b96190c</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:07:20</sys_updated_on>
+            <value>entregado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enviado</label>
+            <language>es</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 10:00:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ef38111dbc133002bc553184b96197d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:00:32</sys_updated_on>
+            <value>enviado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En preparación</label>
+            <language>es</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 09:59:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df38191dbc133002bc553184b9619a5</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:01:15</sys_updated_on>
+            <value>preparacion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entregado</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 10:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3a549d1dbc133002bc553184b961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:06:55</sys_updated_on>
+            <value>entregado</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>estado</element>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 09:59:25</sys_created_on>
+            <sys_id>d5f38191dbc133002bc553184b9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>estado</sys_name>
+            <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+            <sys_update_name>sys_choice_x_329571_informati_tb_pedidos_estado</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 09:59:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
