@@ -62,6 +62,44 @@
             <element>estado</element>
             <hint/>
             <inactive>false</inactive>
+            <label>En preparacion</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 10:31:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>616b0959dbc1330065672fb7489619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:31:55</sys_updated_on>
+            <value>preparando</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enviando</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_pedidos</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-25 10:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7bd051ddbc1330065672fb74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-25 10:42:11</sys_updated_on>
+            <value>enviando</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Entregado</label>
             <language>en</language>
             <name>x_329571_informati_tb_pedidos</name>
@@ -71,9 +109,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d3a549d1dbc133002bc553184b961956</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-25 10:06:55</sys_updated_on>
+            <sys_updated_on>2019-04-25 10:42:11</sys_updated_on>
             <value>entregado</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -82,7 +120,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-25 09:59:25</sys_created_on>
-            <sys_id>d5f38191dbc133002bc553184b9619a6</sys_id>
+            <sys_id>7c884195dbc1330065672fb7489619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>estado</sys_name>
             <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>

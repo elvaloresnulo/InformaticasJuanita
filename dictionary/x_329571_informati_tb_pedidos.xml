@@ -8,6 +8,8 @@
                 <element inactive_on_update="false" label="En preparación" language="es" value="preparacion"/>
                 <element inactive_on_update="false" label="Entregado" language="es" value="entregado"/>
                 <element inactive_on_update="false" label="Enviado" language="es" value="enviado"/>
+                <element inactive_on_update="false" label="En preparacion" sequence="0" value="preparando"/>
+                <element inactive_on_update="false" label="Enviando" sequence="1" value="enviando"/>
                 <element inactive_on_update="false" label="Entregado" sequence="2" value="entregado"/>
             </choice>
         </element>
