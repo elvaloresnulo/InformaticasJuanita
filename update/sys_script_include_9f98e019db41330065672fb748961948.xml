@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_329571_informati.ObtenerFilas</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ObtenerFilas</name>
+        <script><![CDATA[var ObtenerFilas = Class.create();
+ObtenerFilas.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+
+	getFilas: function() {
+		var filas = new GlideRecord("x_329571_informati_tb_pedidos");
+		filas.addQuery('nombre', this.getParameter('nombre'));
+		filas.query();
+		return filas.getRowCount();
+	},
+	type: 'ObtenerFilas'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-25 08:06:38</sys_created_on>
+        <sys_id>9f98e019db41330065672fb748961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ObtenerFilas</sys_name>
+        <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+        <sys_update_name>sys_script_include_9f98e019db41330065672fb748961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-25 08:06:38</sys_updated_on>
+    </sys_script_include>
+</record_update>
