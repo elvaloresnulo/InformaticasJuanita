@@ -45,7 +45,7 @@
 		gr2.query();
 		
 		if(!gr2.next()){
-			gs.addErrorMessage("No puedes meter un DNI repe");
+			gs.addErrorMessage("Este DNI ya existe");
 			current.setAbortAction(true);
 		}
 		
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>908c7e4cdbb033002bc553184b9619ff</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Comprobar DNI Unico</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_908c7e4cdbb033002bc553184b9619ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-10 06:58:12</sys_updated_on>
+        <sys_updated_on>2019-04-24 12:58:07</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

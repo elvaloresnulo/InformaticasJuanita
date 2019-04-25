@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_329571_informati_tb_pedidos</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Dni repetido cliente</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('x_329571_informati_tb_pedidos');
+	
+	gr.addQuery('dni', '=', current.dni);
+	
+	gr.query();
+	
+	if(gr.next()){
+	
+		var gr2 = new GlideRecord('x_329571_informati_tb_pedidos');
+		
+		gr2.addQuery('dni', '=', current.dni);
+		gr2.addQuery('nombre', '=', current.nombre);
+		
+		gr2.query();
+		
+		if(!gr2.next()){
+			gs.addErrorMessage("Este DNI ya existe");
+			current.setAbortAction(true);
+		}
+		
+	}	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-24 12:59:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7f26c49db05330065672fb74896192d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Dni repetido cliente</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+        <sys_update_name>sys_script_c7f26c49db05330065672fb74896192d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-24 13:09:48</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7f26c49db05330065672fb74896192d"/>
+</record_update>

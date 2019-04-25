@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TB_PEDIDOS" max_length="40" name="x_329571_informati_tb_pedidos" type="collection">
+        <element label="DNI" mandatory="true" max_length="9" name="dni" type="string"/>
+        <element label="Fecha del pedido" max_length="40" name="fecha_del_pedido" type="glide_date"/>
+        <element label="Fecha de Nacimiento" max_length="40" name="fecha_de_nacimiento" type="glide_date"/>
+        <element label="Gastos de envio" max_length="20" name="gastos_de_envio" read_only="true" type="decimal"/>
+        <element choice="1" label="Localidad" max_length="40" name="localidad" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Madrid" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Barcelona" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Valencia" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Sevilla" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Avila" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Nombre" mandatory="true" max_length="32" name="nombre" reference="sys_user" type="reference"/>
+        <element label="Precio" max_length="15" name="precio" read_only="true" type="decimal"/>
+        <element label="Precio total" max_length="20" name="precio_total" read_only="true" type="decimal"/>
+        <element choice="1" label="Producto " max_length="40" name="producto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Torre de ordenador" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Monitor" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Teclado" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Raton" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Altavoz" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Ordenador portatil" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="nombre"/>
+        </index>
+    </element>
+</database>
