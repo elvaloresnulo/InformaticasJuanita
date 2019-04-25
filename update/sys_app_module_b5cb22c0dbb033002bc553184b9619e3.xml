@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="TB_EMPLES">ea43d200db7033002bc553184b9619eb</application>
+        <application display_value="Empleados">ea43d200db7033002bc553184b9619eb</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -25,17 +25,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5cb22c0dbb033002bc553184b9619e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>NUEVO EMPLEADO</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>+ Nuevo empleado</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
         <sys_policy/>
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_app_module_b5cb22c0dbb033002bc553184b9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-09 10:05:44</sys_updated_on>
+        <sys_updated_on>2019-04-25 13:54:35</sys_updated_on>
         <timeline_page/>
-        <title>NUEVO EMPLEADO</title>
+        <title>+ Nuevo empleado</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

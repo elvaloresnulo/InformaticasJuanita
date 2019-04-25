@@ -41,6 +41,7 @@
                 <element inactive_on_update="false" label="Ordenador portatil" sequence="5" value="6"/>
             </choice>
         </element>
+        <element default="False" label="Retrasado" max_length="40" name="retrasado" type="boolean"/>
         <index name="index">
             <element name="nombre"/>
         </index>

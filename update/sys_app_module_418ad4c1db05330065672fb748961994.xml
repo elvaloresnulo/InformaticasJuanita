@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="TB_PEDIDOS">458ad4c1db05330065672fb748961991</application>
+        <application display_value="Pedidos">458ad4c1db05330065672fb748961991</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -25,17 +25,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>418ad4c1db05330065672fb748961994</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>TB_PEDIDOSs</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Activos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
         <sys_policy/>
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_app_module_418ad4c1db05330065672fb748961994</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 12:38:59</sys_updated_on>
+        <sys_updated_on>2019-04-25 13:58:32</sys_updated_on>
         <timeline_page/>
-        <title>TB_PEDIDOSs</title>
+        <title>Activos</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
