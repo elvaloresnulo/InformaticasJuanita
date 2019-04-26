@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-23 13:52:05</sys_created_on>
-        <sys_id>ea2706eddb4133002bc553184b9619d8</sys_id>
+        <sys_id>75e26e65db05330065672fb748961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ID_INCIDENCIA</sys_name>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_dictionary_x_329571_informati_tb_incid_rechazadas_id_incidencia</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-04-26 11:08:38</sys_updated_on>
+        <sys_updated_on>2019-04-26 11:32:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
