@@ -12,58 +12,62 @@
         <order/>
         <script><![CDATA[function onLoad() {
 	//Type appropriate comment here, and begin script below
+// 	if(g_form.isNewRecord()){
+// 		g_form.setDisplay("estado",false);
+// 		g_form.setDisplay('number', false);
+
+// 	}else{
+// 		g_form.setReadOnly('number', true);
+// 		g_form.setReadOnly('dni', true);
+// 		g_form.setReadOnly('nombre', true);
+// 		g_form.setReadOnly('fecha_de_nacimiento', true);
+// 		g_form.setReadOnly('producto', true);
+// 		g_form.setReadOnly('cantidad', true);
+// 		g_form.setReadOnly('localidad', true);
+		
+// 		if(g_user.hasRole("x_329571_informati.tb_pedidos_user")){
+// 			g_form.clearOptions('estado');
+// 			g_form.addOption('estado', 'preparando', 'En Preparacion');
+// 			g_form.addOption('estado', 'enviado', 'Enviado');
+// 			g_form.addOption('estado', 'entregado', 'Entregado');
+// 		}
+// 		else if(g_user.hasRole("x_329571_informati.transportista")){
+// 			g_form.clearOptions('estado');
+
+// 			g_form.addOption('estado', 'enviado', 'Enviado');
+// 			g_form.addOption('estado', 'entregado', 'Entregado');
+
+
+// 		}else if(g_user.hasRole("x_329571_informati.user")){
+// 			g_form.clearOptions('estado');
+// 			g_form.addOption('estado', 'preparando', 'En Preparacion');
+// 			g_form.addOption('estado', 'enviado', 'Enviado');
+
+
+// 		}else if(g_user.hasRole("x_329571_informati.admin")){
+// 			g_form.clearOptions('estado');
+// 			g_form.addOption('estado', 'preparando', 'En Preparacion');
+// 			g_form.addOption('estado', 'enviado', 'Enviado');
+
+
+// 		}else if(g_user.hasRole("x_329571_informati.Manager")){
+// 			g_form.clearOptions('estado');
+// 			g_form.addOption('estado', 'preparando', 'En Preparacion');
+// 			g_form.addOption('estado', 'enviado', 'Enviado');
+
+
+// 		}else if(g_user.hasRole("x_329571_informati.cliente")){
+
+// 			g_form.setReadOnly("estado",true);
+
+
+// 		}
+// 	}
+
 	if(g_form.isNewRecord()){
 		g_form.setDisplay("estado",false);
-		g_form.setDisplay('number', false);
-
-	}else{
-		g_form.setReadOnly('number', true);
-		g_form.setReadOnly('dni', true);
-		g_form.setReadOnly('nombre', true);
-		g_form.setReadOnly('fecha_de_nacimiento', true);
-		g_form.setReadOnly('producto', true);
-		g_form.setReadOnly('cantidad', true);
-		g_form.setReadOnly('localidad', true);
-		
-		if(g_user.hasRole("x_329571_informati.tb_pedidos_user")){
-			g_form.clearOptions('estado');
-			g_form.addOption('estado', 'preparando', 'En Preparacion');
-			g_form.addOption('estado', 'enviado', 'Enviado');
-			g_form.addOption('estado', 'entregado', 'Entregado');
-		}
-		else if(g_user.hasRole("x_329571_informati.transportista")){
-			g_form.clearOptions('estado');
-
-			g_form.addOption('estado', 'enviado', 'Enviado');
-			g_form.addOption('estado', 'entregado', 'Entregado');
-
-
-		}else if(g_user.hasRole("x_329571_informati.user")){
-			g_form.clearOptions('estado');
-			g_form.addOption('estado', 'preparando', 'En Preparacion');
-			g_form.addOption('estado', 'enviado', 'Enviado');
-
-
-		}else if(g_user.hasRole("x_329571_informati.admin")){
-			g_form.clearOptions('estado');
-			g_form.addOption('estado', 'preparando', 'En Preparacion');
-			g_form.addOption('estado', 'enviado', 'Enviado');
-
-
-		}else if(g_user.hasRole("x_329571_informati.Manager")){
-			g_form.clearOptions('estado');
-			g_form.addOption('estado', 'preparando', 'En Preparacion');
-			g_form.addOption('estado', 'enviado', 'Enviado');
-
-
-		}else if(g_user.hasRole("x_329571_informati.cliente")){
-
-			g_form.setReadOnly("estado",true);
-
-
-		}
-	}
-
+	
+ 	}
 
 
 }]]></script>
@@ -73,7 +77,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ae80d95dbc1330065672fb748961913</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>modificar estado</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -81,7 +85,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_client_8ae80d95dbc1330065672fb748961913</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 13:05:05</sys_updated_on>
+        <sys_updated_on>2019-04-26 09:46:20</sys_updated_on>
         <table>x_329571_informati_tb_pedidos</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
