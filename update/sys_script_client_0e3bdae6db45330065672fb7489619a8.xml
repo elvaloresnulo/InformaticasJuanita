@@ -18,12 +18,30 @@
 	g_form.setDisplay('indemnizacion',true);
 
 	var fechaDespido = g_form.getValue('fecha_despido');
-
 	var gaj = new GlideAjax('ObtenerFechaContrato');
+	
+//	g_form.addInfoMessage(fechaDespido);
+//  var hoy = new GlideDateTime();
+//	g_form.addInfoMessage(hoy);
+	
+//var diferencia = GlideDateTime.substract(fechaDespido, hoy);
+	
+//	g_form.addInfoMessage(diferencia);
+	
 
 	gaj.addParam('sysparam_name', 'fechaContrato');
-
+	
 	gaj.addParam('fechaDespido', fechaDespido);
+	
+	gaj.addParam('dnipasado', g_form.getValue('dni'));
+	
+	gaj.getXML(devolveragnos);
+	
+	function devolveragnos(response){
+			var diferencia = response.responseXML.documentElement.getAttribute("answer");
+		
+			g_form.addInfoMessage("Diferencia: " + diferencia);
+	}
 
 
 
@@ -36,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0e3bdae6db45330065672fb7489619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Mostrar y calcular Indemnizacion</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -44,7 +62,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_client_0e3bdae6db45330065672fb7489619a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-29 13:57:43</sys_updated_on>
+        <sys_updated_on>2019-04-29 14:54:24</sys_updated_on>
         <table>x_329571_informati_tb_emples</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

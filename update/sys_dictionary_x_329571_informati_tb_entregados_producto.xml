@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-25 13:09:06</sys_created_on>
-        <sys_id>cb579122db81330065672fb74896199a</sys_id>
+        <sys_id>ed9162a2db4533002bc553184b9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>producto</sys_name>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_dictionary_x_329571_informati_tb_entregados_producto</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-04-29 08:36:42</sys_updated_on>
+        <sys_updated_on>2019-04-29 14:01:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
