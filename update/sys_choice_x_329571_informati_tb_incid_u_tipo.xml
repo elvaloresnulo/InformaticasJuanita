@@ -57,13 +57,51 @@
             <sys_updated_on>2019-04-09 09:41:20</sys_updated_on>
             <value>3</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>At. Cliente</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-29 07:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0283c562db4133002bc553184b96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-29 07:09:58</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transporte</label>
+            <language>en</language>
+            <name>x_329571_informati_tb_incid</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-29 07:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4283c562db4133002bc553184b96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-29 07:09:58</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_tipo</element>
             <name>x_329571_informati_tb_incid</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-09 09:41:20</sys_created_on>
-            <sys_id>f5f262a5db05330065672fb7489619d9</sys_id>
+            <sys_id>654089eadb0133002bc553184b96198a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_tipo</sys_name>
             <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>

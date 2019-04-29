@@ -33,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-26 11:40:01</sys_created_on>
         <sys_id>4574e229db05330065672fb7489619c6</sys_id>
-        <sys_mod_count>99</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-26 11:45:57</sys_updated_on>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2019-04-29 07:07:57</sys_updated_on>
         <table>x_329571_informati_tb_incid</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="flujo incidencias">f0946629db05330065672fb74896194d</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

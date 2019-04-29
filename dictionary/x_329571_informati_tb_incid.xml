@@ -18,6 +18,8 @@
                 <element inactive_on_update="false" label="Puesto de Trabajo" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Zonas Comunes" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Permisos y Excedencias" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="At. Cliente" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Transporte" sequence="4" value="5"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Urgencia" max_length="40" name="u_urgencia" type="string">
