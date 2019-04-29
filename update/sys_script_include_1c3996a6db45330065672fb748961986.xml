@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_329571_informati.ObtenerFechaContrato</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ObtenerFechaContrato</name>
+        <script><![CDATA[var ObtenerFechaContrato = Class.create();
+ObtenerFechaContrato.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	fechaContrato: function(){
+		
+		var fechaDespido = this.getParameter('fechaDespido');
+		var gr = new GlideRecord('x_329571_informati_tb_emples');
+		
+		gr.addQuery('dni', varDNI);
+		
+		gr.query();
+		
+		if(gr.next()){
+			var fechaContrato = gr.getValue('fecha_contrato');
+			
+			
+			
+		}
+	},
+
+    type: 'ObtenerFechaContrato'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-29 13:57:04</sys_created_on>
+        <sys_id>1c3996a6db45330065672fb748961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ObtenerFechaContrato</sys_name>
+        <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+        <sys_update_name>sys_script_include_1c3996a6db45330065672fb748961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-29 13:57:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

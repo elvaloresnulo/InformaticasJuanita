@@ -2,7 +2,7 @@
     <element label="TB_EMPLES" max_length="40" name="x_329571_informati_tb_emples" type="collection">
         <element label="Correo" max_length="40" name="correo" reference="sys_email" type="string"/>
         <element display="true" label="DNI" max_length="9" name="dni" type="string"/>
-        <element choice="1" default="1" label="Estado" mandatory="true" max_length="40" name="estado" type="choice">
+        <element choice="3" default="1" label="Estado" mandatory="true" max_length="40" name="estado" type="choice">
             <choice>
                 <element hint="Empleado trabajando actualmente" inactive_on_update="false" label="Activo" value="1"/>
                 <element hint="Empleado de baja, con sueldo" inactive_on_update="false" label="Baja" value="4"/>
@@ -11,8 +11,10 @@
                 <element hint="Empleado de vacaciones" inactive_on_update="false" label="Vacaciones" value="3"/>
             </choice>
         </element>
+        <element label="Fecha contrato" max_length="40" name="fecha_contrato" type="glide_date"/>
         <element label="Fecha Despido" max_length="40" name="fecha_despido" type="glide_date"/>
         <element label="Fecha de nacimiento" max_length="40" name="fecha_de_nacimiento" type="glide_date"/>
+        <element label="Indemnizacion" max_length="40" name="indemnizacion" read_only="true" type="integer"/>
         <element label="Nombre" mandatory="true" max_length="60" name="nombre" reference="sys_user" type="reference"/>
         <element choice="3" default="3" label="Puesto" mandatory="true" max_length="40" name="puesto" type="choice">
             <choice>
