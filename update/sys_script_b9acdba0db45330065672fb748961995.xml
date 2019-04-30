@@ -77,9 +77,15 @@
 		tipo_1='Transporte';
 	}
 	gr.tipo=tipo_1;
-	
-	current.deleteRecord();
 	gr.insert();
+	
+	glide = new GlideRecord('x_329571_informati_tb_incid');
+	glide.addQuery('number', gr.id_incidencia);
+	glide.query();
+	
+	if(glide.next()){
+		glide.deleteRecord();
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -88,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9acdba0db45330065672fb748961995</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>incidencias_completadas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
@@ -96,7 +102,7 @@
         <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
         <sys_update_name>sys_script_b9acdba0db45330065672fb748961995</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-29 07:11:34</sys_updated_on>
+        <sys_updated_on>2019-04-30 12:37:19</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

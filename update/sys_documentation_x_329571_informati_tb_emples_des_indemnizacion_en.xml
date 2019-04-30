@@ -11,15 +11,15 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 09:54:19</sys_created_on>
-            <sys_id>2fb2befedb01730065672fb7489619aa</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>b687f6b2db8133002bc553184b961996</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Indemnizacion</sys_name>
             <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
             <sys_policy/>
             <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
             <sys_update_name>sys_documentation_x_329571_informati_tb_emples_des_indemnizacion_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-30 09:54:19</sys_updated_on>
+            <sys_updated_on>2019-04-30 10:19:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

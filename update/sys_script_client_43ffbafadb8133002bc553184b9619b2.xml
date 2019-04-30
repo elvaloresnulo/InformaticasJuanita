@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>cantidad</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>cambioDescuentoCarga</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+   var ga = new GlideAjax('ObtenerFilas');
+	// Specify the getEmail method
+	ga.addParam('sysparm_name','getFilas');
+	// Pass the Requested for sys_id
+	ga.addParam('nombre', g_form.getValue('nombre'));
+	// Send the request to the server
+	ga.getXML(ponerDescuento);
+	
+	function ponerDescuento(response){
+		
+		var filas = response.responseXML.documentElement.getAttribute("answer");
+		//g_form.addInfoMessage(filas);
+		
+		if(filas % 5 == 0 && filas != 0){
+			g_form.setDisplay('descuento', true);
+			g_form.setValue('descuento', 15);
+		}else{
+			g_form.setDisplay('descuento', false);
+			g_form.setValue('descuento', 0);
+		}
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 10:52:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43ffbafadb8133002bc553184b9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cambioDescuentoCarga</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Informaticas_Juanita" source="x_329571_informati">4e22d68cdb3033002bc553184b961911</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Informaticas_Juanita">4e22d68cdb3033002bc553184b961911</sys_scope>
+        <sys_update_name>sys_script_client_43ffbafadb8133002bc553184b9619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 10:52:48</sys_updated_on>
+        <table>x_329571_informati_tb_pedidos</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
